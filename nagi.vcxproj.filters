@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\General">
+      <UniqueIdentifier>{7c5bc16c-bbcc-4092-8022-5bf9cd68a656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Impl">
+      <UniqueIdentifier>{a3c6234d-2f14-4c06-8936-84a709220bf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Mgr">
+      <UniqueIdentifier>{f7f078ea-36a7-4c91-9058-602982184d22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\General">
+      <UniqueIdentifier>{e2e4f8d6-841c-4aa6-a18b-122510a77c5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Impl">
+      <UniqueIdentifier>{db4663fd-f54b-4e3a-b235-36865f27c84b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Mgr">
+      <UniqueIdentifier>{6bda0115-2839-49e6-b6d3-9b8e5a9610f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Main">
+      <UniqueIdentifier>{23ccac0b-0857-430b-bafb-b2b4cfe06724}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Easing.cpp">
+      <Filter>ソース ファイル\General</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>ソース ファイル\General</Filter>
+    </ClCompile>
+    <ClCompile Include="Func.cpp">
+      <Filter>ソース ファイル\General</Filter>
+    </ClCompile>
+    <ClCompile Include="myglobal.cpp">
+      <Filter>ソース ファイル\General</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMgr.cpp">
+      <Filter>ソース ファイル\Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects.cpp">
+      <Filter>ソース ファイル\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp">
+      <Filter>ソース ファイル\General</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>ソース ファイル\General</Filter>
+    </ClCompile>
+    <ClCompile Include="Abstract.cpp">
+      <Filter>ソース ファイル\General</Filter>
+    </ClCompile>
+    <ClCompile Include="MyString.cpp">
+      <Filter>ソース ファイル\General</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>ソース ファイル\General</Filter>
+    </ClCompile>
+    <ClCompile Include="Dir.cpp">
+      <Filter>ソース ファイル\General</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw.cpp">
+      <Filter>ソース ファイル\General</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>ソース ファイル\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>ソース ファイル\Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectMgr.cpp">
+      <Filter>ソース ファイル\Mgr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameMgr.h">
+      <Filter>ヘッダー ファイル\Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects.h">
+      <Filter>ヘッダー ファイル\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>ヘッダー ファイル\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>ヘッダー ファイル\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>ヘッダー ファイル\General</Filter>
+    </ClInclude>
+    <ClInclude Include="myglobal.h">
+      <Filter>ヘッダー ファイル\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Func.h">
+      <Filter>ヘッダー ファイル\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Easing.h">
+      <Filter>ヘッダー ファイル\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Abstract.h">
+      <Filter>ヘッダー ファイル\General</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString.h">
+      <Filter>ヘッダー ファイル\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>ヘッダー ファイル\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Dir.h">
+      <Filter>ヘッダー ファイル\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw.h">
+      <Filter>ヘッダー ファイル\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>ヘッダー ファイル\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>ヘッダー ファイル\Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectMgr.h">
+      <Filter>ヘッダー ファイル\Mgr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
